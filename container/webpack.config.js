@@ -45,6 +45,8 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         'components': 'remote@http://localhost:4001/remoteEntry.js',
+        'components2': 'remote2@http://localhost:5001/remoteEntry.js',
+        components3: "angularRemote@http://localhost:4201/remoteEntry.js"
       },
       exposes: {},
       shared: {
